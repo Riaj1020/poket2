@@ -1,6 +1,6 @@
-services:
-  - type: web
-    name: signal-bot
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python bot_script.py
+yfinance==0.2.18
+pandas==1.5.3
+pandas_ta==0.3.14b0
+matplotlib==3.7.1
+python-telegram-bot==20.3
+nest_asyncio==1.5.4
